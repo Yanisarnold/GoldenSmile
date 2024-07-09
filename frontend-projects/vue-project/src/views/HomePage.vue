@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import HomeContent from '@/components/'
+</script>
 
 <template>
   <div></div>

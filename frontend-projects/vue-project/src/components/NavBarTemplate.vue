@@ -1,6 +1,5 @@
 <script setup lang="ts">
-
-
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 </template>
 <header>
@@ -9,8 +8,8 @@
           <RouterLink to="/about">About Golden Smile</RouterLink>
           <RouterLink to="/nursery">Our Nurser</RouterLink>
           <RouterLink to="/rooms">Our Rooms</RouterLink>
-          <RouterLink to="/policies">Fees</RouterLink>
-          <RouterLink to="/">Policies</RouterLink>
+          <RouterLink to="/fees">Fees</RouterLink>
+          <RouterLink to="/policies">Policies</RouterLink>
       </nav>
        <button class="golden_button" type="button">Contact Us</button>
 </header>

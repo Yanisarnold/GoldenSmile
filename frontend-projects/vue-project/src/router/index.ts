@@ -16,29 +16,24 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/nursery',
+      name: 'nursery',
+      component: () => import('../views/OurNursery.vue')
+    },
+    {
+      path: '/rooms',
+      name: 'room',
+      component: () => import('../views/OurRooms.vue')
+    },
+    {
+      path: '/fees',
+      name: 'fees',
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
+      path: '/policies',
+      name: 'policies',
+      component: () => import('../views/Policies.vue')
     }
   ]
 })
