@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import router from './router'
 
 import App from './App.vue'
-const pinia = createPinia()
+
 // createApp =  new implications instances always import from "vue" argument = root component
 const app = createApp(App)
-app.use(pinia)
+app.use(router)
 
 // mounting the app , needed for rendering , takes an argument container . should be called at last
 app.mount('#app')

@@ -1,7 +1,9 @@
 <script lang="ts" setup>
-import HomeContent from '@/components/'
+import HomeContent from '@/components/HomeContent.vue'
 </script>
 
 <template>
-  <div></div>
+  <div>
+    <HomeContent></HomeContent>
+  </div>
 </template>

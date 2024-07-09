@@ -16,5 +16,4 @@ import '@/assets/weather-app.css'
       <!-- <img src="" alt="logo" /> -->
     </section>
   </div>
-  <RouterView />
 </template>
