@@ -1,18 +1,9 @@
 <script setup lang="ts">
-import CardTemplate from '@/components/CardTemplate.vue'
-import cardData from './data/cardData.json'
+import { RouterLink, RouterView } from 'vue-router'
+import NavBar from '@/components/'
 </script>
 
 <template>
-  <CardTemplate
-    v-for="data in cardData"
-    :key="data.id"
-    :id="data.id"
-    v-bind:img="data.profile"
-    :name="data.name"
-    :job-title="data['job-title']"
-    :website="data.website"
-    :about="data.About"
-    :interest="data.Interests"
-  />
+  <div></div>
+  <RouterView />
 </template>

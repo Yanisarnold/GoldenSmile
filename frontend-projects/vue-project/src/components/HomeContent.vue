@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import '@/assets/weather-app.css'
-import { ref, onMounted } from 'vue'
 
 // Loading information
 // onMounted(async () => {
