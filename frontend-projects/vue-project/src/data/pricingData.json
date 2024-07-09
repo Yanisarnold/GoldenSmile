@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Starter",
+    "price": "$19",
+    "plan": {
+      "one": "500 MAUs",
+      "two": "3 project",
+      "three": "unlimited guides",
+      "four": "unlimited flows",
+      "five": "unlimited branded themes",
+      "six": "Email support"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Pro",
+    "price": "$99",
+    "plan": {
+      "two": "All starter features, plus:",
+      "three": "unlimited projects",
+      "four": "unlimited fully customizable of themes",
+      "five": "A customer Support Manager"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Enterprise",
+    "description": "Let's Talk",
+    "plan": {
+      "one": "All features",
+      "two": "unlimited MAUs",
+      "three": "Dedicated environment",
+      "four": "Enterprise account admin",
+      "five": "premium support and services"
+    }
+  }
+]
