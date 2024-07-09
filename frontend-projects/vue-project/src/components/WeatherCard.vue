@@ -65,17 +65,18 @@ const itemsRefs = ref([])
 </script>
 <template>
   <div class="golden_container">
-    <section class="golden_nav_bar">
-      <nav>
+    <section class="golden_section_container">
+      <!-- <img src="" alt="logo" /> -->
+      <nav class="golden_nav_bar">
         <ul>
-          <li>Home</li>
-          <li>About Golden Smile</li>
-          <li>Our Nursery</li>
-          <li>Our Rooms</li>
-          <li>Fees</li>
-          <li>Policies</li>
+          <li><a href="http://">Home</a></li>
+          <li><a href="http://">About Golden Smile</a></li>
+          <li><a href="http://">Our Nursery</a></li>
+          <li><a href="http://">Our Rooms</a></li>
+          <li><a href="http://">Fees</a></li>
+          <li><a href="http://">Policies</a></li>
         </ul>
-        <button type="button">Contact Us</button>
+        <button class="golden_button" type="button">Contact Us</button>
       </nav>
     </section>
   </div>
