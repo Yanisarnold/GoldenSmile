@@ -1,9 +1,7 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
-// root component App from a single-file component
-// import App from './App.vue'
-import WeatherApp from './components/WeatherCard.vue'
+import WeatherApp from './components/HomeContent.vue'
 const pinia = createPinia()
 // createApp =  new implications instances always import from "vue" argument = root component
 const app = createApp(WeatherApp)
