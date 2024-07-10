@@ -10,19 +10,20 @@ body {
 }
 
 .golden_container {
-  background-color: #523E27;
-  height: 150px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  padding: 0 20px 0 20px;
 }
 
 .golden_nav_bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  background-color: #523E27;
+  height: 150px;
+  width: 100%;
+  padding: 0 40px 0 40px;
 }
 
 ul {
@@ -48,5 +49,9 @@ a {
   color: #fff;
   border: 2px solid #000;
   border-radius: 10px;
+}
 
+nav {
+  display: flex;
+  align-items: center;
 }
