@@ -55,3 +55,12 @@ nav {
   display: flex;
   align-items: center;
 }
+
+.home_container {
+  background-color: #d9d9d9;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

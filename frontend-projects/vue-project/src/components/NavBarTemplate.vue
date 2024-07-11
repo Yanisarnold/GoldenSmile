@@ -24,5 +24,4 @@ const printConsole = () => {
       </div>
     </nav>
   </header>
-  <RouterView />
 </template>
