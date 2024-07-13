@@ -24,8 +24,7 @@ const printConsole = () => {
           <li><RouterLink to="/policies">Policies</RouterLink></li>
         </ul>
         <div>
-          <Button_component></Button_component>
-          <button class="golden_button" @click="printConsole" type="button">Contact Us</button>
+          <Button_component title="contact Us" class="golden_button" />
         </div>
       </nav>
     </header>

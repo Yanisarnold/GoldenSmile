@@ -1,12 +1,13 @@
 <script setup>
 defineProps({
-  id: number,
-  title: string,
-  color_primary: string,
-  height: number
+  id: Number,
+  title: String,
+  color_primary: String,
+  height: Number
 })
+// @click="$emit(increasedBy1, 1)"
 </script>
 
 <template>
-  <button style="" class="golden_btn" @click="$emit(increasedBy1, 1)">{{ title }}</button>
+  <button class="golden_btn">{{ title }}</button>
 </template>
