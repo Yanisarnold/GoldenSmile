@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+<!-- <script setup lang="ts">
+import { RouterLink } from 'vue-router'
 
 const printConsole = () => {
   console.log('hello')
@@ -24,4 +24,4 @@ const printConsole = () => {
       </div>
     </nav>
   </header>
-</template>
+</template> -->

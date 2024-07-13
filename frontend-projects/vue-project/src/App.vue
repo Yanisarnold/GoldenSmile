@@ -1,12 +1,34 @@
 <script setup lang="ts">
-import NavBar from '@/components/NavBarTemplate.vue'
+// import NavBar from '@/components/NavBarTemplate.vue'
 import Footer from '@/components/FooterTemplate.vue'
-import '@/assets/weather-app.css'
-import { RouterView } from 'vue-router'
+import '@/assets/main.css'
+import { RouterView, RouterLink } from 'vue-router'
+import Button_component from './components/ButtonTemplate.vue'
+const printConsole = () => {
+  console.log('hello')
+}
 </script>
 <template>
   <div class="golden_container">
-    <NavBar></NavBar>
+    <header class="golden_nav_bar">
+      <div class="logo_container">
+        <img src="" alt="logo_container" />
+      </div>
+      <nav>
+        <ul>
+          <li><RouterLink to="/">Home</RouterLink></li>
+          <li><RouterLink to="/about">About Golden Smile</RouterLink></li>
+          <li><RouterLink to="/nursery">Our Nursery</RouterLink></li>
+          <li><RouterLink to="/rooms">Our Rooms</RouterLink></li>
+          <li><RouterLink to="/fees">Fees</RouterLink></li>
+          <li><RouterLink to="/policies">Policies</RouterLink></li>
+        </ul>
+        <div>
+          <Button_component></Button_component>
+          <button class="golden_button" @click="printConsole" type="button">Contact Us</button>
+        </div>
+      </nav>
+    </header>
     <section class="grid_container">
       <div class="item1">
         <div><RouterView /></div>

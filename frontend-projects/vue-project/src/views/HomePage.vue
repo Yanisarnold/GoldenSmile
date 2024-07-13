@@ -5,8 +5,9 @@ import data from '@/data/cardData.json'
 
 <template>
   <HomeContent
-    :key="data[0].id"
-    :home_title="data[0].home_title"
-    :home_paragraph="data[0].home_paragraph"
+    v-for="item in data"
+    :key="item.id"
+    :home_title="item.home_title"
+    :home_paragraph="item.home_paragraph"
   ></HomeContent>
 </template>
