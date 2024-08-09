@@ -3,7 +3,9 @@
 import Footer from '@/components/FooterTemplate.vue'
 import '@/assets/main.css'
 import { RouterView, RouterLink } from 'vue-router'
-import Button_component from './components/ButtonTemplate.vue'
+import Button_component from '@/components/ButtonTemplate.vue'
+
+// button action example
 const printConsole = () => {
   console.log('hello')
 }
@@ -32,11 +34,23 @@ const printConsole = () => {
       <div class="item1">
         <div><RouterView /></div>
         <div class="home_content_card">
-          <span><h1>Content</h1></span>
-          <span><h1>Content</h1></span>
+          <span
+            ><h1>Welcome to Golden Smile</h1>
+            <div class="img_card_container">
+              <div>
+                <img src="" alt="banner " />
+                <h1>Our Nursery</h1>
+                <p>
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. ”
+                </p>
+                <Button_component title="Learn More" class="golden_button" />
+              </div>
+            </div>
+          </span>
         </div>
       </div>
-      <div class="item3"><Footer></Footer></div>
+      <Footer></Footer>
     </section>
   </div>
 </template>
