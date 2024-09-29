@@ -15,9 +15,13 @@ const home_data_props = defineProps({
 </script>
 <template>
   <div class="home_container">
-    <h1>{{ home_data_props.home_title }}</h1>
-    <p>
-      {{ home_data_props.home_paragraph }}
-    </p>
+    <div class="gs-content" style="padding: 30px">
+      <h1 style="width: 500px; font-size: 3rem; line-height: 1.3">
+        {{ home_data_props.home_title }}
+      </h1>
+      <p style="width: 450px">
+        {{ home_data_props.home_paragraph }}
+      </p>
+    </div>
   </div>
 </template>

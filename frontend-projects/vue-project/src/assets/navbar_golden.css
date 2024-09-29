@@ -1,11 +1,10 @@
 :root {
   --border_width: 2px solid;
-  --background_color: #523E27;
-  --button_color: #3D7FC7;
+  --background_color: lightblue;
+  --button_color: #3d7fc7;
   --content_width: 100%;
   --display_flex: flex;
 }
-
 
 .golden_nav_bar {
   display: var(--display_flex);
@@ -25,7 +24,7 @@ ul {
   font-size: 14px;
 }
 
-ul>li {
+ul > li {
   margin-right: 1.5rem;
 }
 
@@ -40,6 +39,7 @@ a {
   color: #fff;
   border: 2px solid #000;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 nav {

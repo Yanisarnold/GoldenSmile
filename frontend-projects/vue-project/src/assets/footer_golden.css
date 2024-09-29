@@ -1,19 +1,30 @@
 :root {
   --border_width: 1px solid;
-  --background_color: green;
+  --background_color_footer: green;
 }
-
 
 .footer_container {
   height: 250px;
-  background-color: var(--background_color);
+  background-color: var(--background_color_footer);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  padding: 20px
+  padding: 20px;
 }
 
 .footer_one,
 .footer_two {
-  border-right: var(--border_width) #000;
+  border-right: 1px solid;
+}
+
+.h3 {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px 0 10px 0;
+}
+
+.footer_one,
+.footer_two,
+.footer_three {
+  padding: 30px;
 }
